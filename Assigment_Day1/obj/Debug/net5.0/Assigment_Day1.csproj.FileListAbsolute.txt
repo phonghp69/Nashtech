@@ -1,0 +1,16 @@
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.exe
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.deps.json
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.runtimeconfig.json
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.runtimeconfig.dev.json
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\ref\Assigment_Day1.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\bin\Debug\net5.0\Assigment_Day1.pdb
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.csproj.AssemblyReference.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.AssemblyInfoInputs.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.AssemblyInfo.cs
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.csproj.CoreCompileInputs.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\ref\Assigment_Day1.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.pdb
+D:\Rookies_Nashtech\Assignment_Nash\Assigment_Day1\obj\Debug\net5.0\Assigment_Day1.genruntimeconfig.cache
