@@ -1,0 +1,15 @@
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\Assignment3.exe
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\Assignment3.deps.json
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\Assignment3.runtimeconfig.json
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\Assignment3.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\ref\Assignment3.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\bin\Debug\net6.0\Assignment3.pdb
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.csproj.AssemblyReference.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfoInputs.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfo.cs
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.csproj.CoreCompileInputs.cache
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\ref\Assignment3.dll
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.pdb
+D:\Rookies_Nashtech\Assignment_Nash\Assignment3\obj\Debug\net6.0\Assignment3.genruntimeconfig.cache
