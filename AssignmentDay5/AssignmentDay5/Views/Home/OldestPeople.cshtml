@@ -1,0 +1,36 @@
+﻿@model AssignmentDay5.Models.Person
+@{
+    ViewData["Title"] = "Oldest Person";
+}
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<div class="text-center">
+    <table>
+        <tr>
+            <th>FullName</th>
+            <th>Gender</th>
+            <th>Date of Birth</th>
+            <th>Address</th>
+            <th>PhoneNumber</th>
+            <th>IsGraduated</th>
+
+        </tr>
+
+                <tr>
+                    <td>@Model.FullName</td>
+                    <td>@Model.Gender</td>
+                    <td>@Model.DateOfBirth.ToString("dd/MM/yyyy") </td>
+                    <td>@Model.BirthAdress</td>
+                    <td>@Model.PhoneNumber</td>
+                    <td>@Model.IsGraduated </td>
+                </tr>
+                <p>   </p>
+            
+
+        }
+    </table>
+
+</div>

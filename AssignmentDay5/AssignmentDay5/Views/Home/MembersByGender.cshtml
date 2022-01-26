@@ -1,0 +1,40 @@
+﻿@model List<Person>
+
+@{
+    ViewData["Title"] = "Search people by gender";
+}
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<div class="text-center">
+    <table>
+        <tr>
+            <th>FullName</th>
+            <th>Gender</th>
+            <th>Date of Birth</th>
+            <th>Address</th>
+            <th>PhoneNumber</th>
+            <th>IsGraduated</th>
+
+        </tr>
+
+        @{
+            foreach (var person in Model)
+            {
+                <tr>
+                    <td>@person.FullName</td>
+                    <td>@person.Gender</td>
+                    <td>@person.DateOfBirth.ToString("dd/MM/yyyy") </td>
+                    <td>@person.BirthAdress</td>
+                    <td>@person.PhoneNumber</td>
+                    <td>@person.IsGraduated </td>
+                </tr>
+                <p>   </p>
+            }
+
+        }
+    </table>
+
+</div>
