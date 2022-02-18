@@ -29,7 +29,8 @@
             <td>
                 <a class="btn btn-primary" asp-controller="Student" asp-action="EditPerson" asp-route-personId="@person.Id">Edit</a>
                 @* <button type="button" class="btn btn-danger" onclick="handleDeletePerson(@person.Id)">Delete</button> *@
-                <a class="btn btn-danger" onclick="ConfirmDelete(@person.Id)" asp-controller="Student" asp-action="DeletePerson" asp-route-personId="@person.Id" >Delete</a>
+                @* <a class="btn btn-danger" new {onclick="ConfirmDelete(@person.Id)" asp-controller="Student" asp-action="DeletePerson" asp-route-personId="@person.Id"} >Delete</a> *@
+                 @Html.ActionLink("Delete","DeletePerson",new {personId =person.Id}, new { onclick= "return confirm('Are you sure you wish to delete this property?')"}) 
             </td>
             
         </tr>
@@ -60,7 +61,7 @@
             }
             
     } *@
-    function ConfirmDelete(personId){
+    function ConfirmDelete(){
         var result = confirm('Are you sure you want to delete this person?');
       return result;
     }
