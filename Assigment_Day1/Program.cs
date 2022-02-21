@@ -32,12 +32,23 @@ namespace Assignment_Day1
                 Place="HN",
                 Graduated=true
             },
+             new Member
+            {
+                FirstName="Nguyen",
+                LastName="Khoi",
+                Gender=Member.Genderz.Male,
+                BirthDay= new DateTime(2000,01,01),
+                Phone="0963199204",
+               
+                Place="HN",
+                Graduated=true
+            },
             new Member
             {
                 FirstName="Dinh",
                 LastName="Huy",
                 Gender=Member.Genderz.Female,
-                BirthDay= new DateTime(2050,01,01),
+                BirthDay= new DateTime(2005,01,01),
                 Phone="0963199204",
                
                 Place="BN",

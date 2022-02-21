@@ -1,0 +1,50 @@
+
+@model Assignment7.Models.PersonModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+       
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Gender</th>
+        <th>DateOfBirth</th>
+        <th>BirthPlace</th>
+        <th>PhoneNumber</th>
+        <th>Graduated</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    
+        <tr>
+            
+            <td>@Model.FirstName</td>
+            <td>@Model.LastName</td>
+            <td>@Enum.GetName(typeof(Gender), Model.Gender)</td>
+            <td>@Model.DateOfBirth.ToString("dd/MM/yyyy")</td>
+            <td>@Model.BirthPlace</td>
+            <td>@Model.PhoneNumber</td>
+            <td>@string.Format("{0}", Model.IsGraduated ? "Yes" : "No")</td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Student" asp-action="EditPerson" asp-route-personId="@Model.Id">Edit</a>
+                @* <button type="button" class="btn btn-danger" onclick="handleDeletePerson(@person.Id)">Delete</button> *@
+                @* <a class="btn btn-danger" new {onclick="ConfirmDelete(@person.Id)" asp-controller="Student" asp-action="DeletePerson" asp-route-personId="@person.Id"} >Delete</a> *@
+                 @Html.ActionLink("Delete","DeletePerson",new {personId =Model.Id}, new { onclick= "return confirm('Are you sure you wish to delete this property?')"}) 
+            </td>
+            
+        </tr>
+    
+    </tbody>
+</table>
+<form asp-action="DeletePerson">
+    
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-action="Index">Back to List</a>
+</form>

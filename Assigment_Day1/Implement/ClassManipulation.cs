@@ -7,9 +7,11 @@ using static Assignment_Day1.Member;
 
 namespace Assigment_Day1.Implement
 {
-    public class ClassManipulation: IClassManipulation
+    public class ClassManipulation : IClassManipulation
     {
-       
+        public ClassManipulation()
+        {
+        }
 
         public List<Member> GetMemberByGender(List<Member> list, Genderz gender)
         {
@@ -36,21 +38,23 @@ namespace Assigment_Day1.Implement
             return rs;
         }
 
-        public Member GetMemberOldest(List<Member> list)
-        {
+         public Member GetMemberOldest(List<Member> list)
+         {
            
-            var oldest = list[0];
-            for (var i = 1; i < list.Count; i++)
-            {
-                var member = list[i];
-                if (member.CompareTo(oldest) > 0)
+             var oldest = list[0].Age;
+             var maxold=0;
+             for (var i = 1; i < list.Count; i++)
+             {
+                 var member = list[i].Age;
+                if (member> oldest)
                 {
-                    oldest = member;
+                    member = oldest;
+                    maxold = i;
 
                 }
             }
-            Console.WriteLine(oldest);
-            return oldest;
+            Console.WriteLine(list[maxold]);
+            return null;
             
         }
 
@@ -80,19 +84,27 @@ namespace Assigment_Day1.Implement
                     case 2000:
                         list1.Add(item);
                         item.Show();
+                        
                         break;
                     case > 2000:
+                    Console.WriteLine("=======================");
                         list2.Add(item);
                         item.Show();
+                        
                         break;
                     case < 2000:
+                    Console.WriteLine("=======================");
                         list3.Add(item);
                         item.Show();
+                        
                         break;
 
                 }
             }
+            //Console.WriteLine(Tuple.Create(list1, list2, list3));
             return Tuple.Create(list1, list2, list3);
         }
+
+       
     }
 }

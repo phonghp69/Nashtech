@@ -12,7 +12,7 @@ namespace Assigment2.Implement
 
         List<Member> GetMemberByGender(List<Member> list, Genderz gender);
         Member GetMemberOldest(List<Member> list);
-        List<Member> GetMemberFullName(List<Member> list);
+        List<string> GetMemberFullName(List<Member> list);
         List<Member> GetMembersInPlace(List<Member> list, string place);
         public List<Member> GetListSplitByAge(List<Member> list);
     }
@@ -31,17 +31,13 @@ namespace Assigment2.Implement
             return list;
         }
 
-        public List<Member> GetMemberFullName(List<Member> list)
+        public List<string> GetMemberFullName(List<Member> list)
         {
-            var get_member_full_name = from Member in list select Member;
-
-
-            foreach (var item in get_member_full_name)
-            {
-                String fullName = item.FirstName + " " + item.LastName;
-                Console.WriteLine(fullName);
-            }
-            return list;
+            var get_member_full_name = (from Member in list select Member.FullName()).ToList();
+             get_member_full_name.ForEach(Member => Console.WriteLine(Member));
+            
+           
+            return get_member_full_name.ToList();
         }
 
         public Member GetMemberOldest(List<Member> list)
@@ -59,11 +55,10 @@ namespace Assigment2.Implement
         public List<Member> GetMembersInPlace(List<Member> list, string place)
         {
 
-            var get_member_place = from Member in list where Member.Place == place select Member;
-            foreach (var item in get_member_place)
-            {
-                Console.WriteLine(item.Show());
-            }
+            var get_member_place = (from Member in list where Member.Place == place select Member).FirstOrDefault();
+            
+                Console.WriteLine(get_member_place.Show());
+            
             return list;
         }
 

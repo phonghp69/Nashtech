@@ -57,7 +57,10 @@ namespace Assignment2
           return ($" {FirstName}   {LastName}   {Gender}   {BirthDay.ToString("yyyy/MM/dd")}   {Place}   {Phone}   {Age}   {Graduated}");
 
         }
-
+        public string FullName(){
+                return ($" {FirstName}   {LastName}");
+           // return FirstName +" "+LastName ;
+        }
       
     }
 }

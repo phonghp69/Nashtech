@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj": {}
+    "d:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj": {}
   },
   "projects": {
-    "D:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj": {
+    "d:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj",
+        "projectUniqueName": "d:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj",
         "projectName": "Assignment3",
-        "projectPath": "D:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj",
+        "projectPath": "d:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\Assignment3.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\obj\\",
+        "outputPath": "d:\\Rookies_Nashtech\\Assignment_Nash\\Assignment3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

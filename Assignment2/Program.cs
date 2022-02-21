@@ -83,6 +83,7 @@ namespace Assignment2
 
                             cl.GetMemberByGender(list, Member.Genderz.Male);
                             break;
+
                         }
 
                     case 2:
