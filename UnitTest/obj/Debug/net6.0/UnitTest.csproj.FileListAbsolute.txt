@@ -1,0 +1,5 @@
+D:\Rookies_Nashtech\Assignment_Nash\UnitTest\obj\Debug\net6.0\UnitTest.csproj.AssemblyReference.cache
+D:\Rookies_Nashtech\Assignment_Nash\UnitTest\obj\Debug\net6.0\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rookies_Nashtech\Assignment_Nash\UnitTest\obj\Debug\net6.0\UnitTest.AssemblyInfoInputs.cache
+D:\Rookies_Nashtech\Assignment_Nash\UnitTest\obj\Debug\net6.0\UnitTest.AssemblyInfo.cs
+D:\Rookies_Nashtech\Assignment_Nash\UnitTest\obj\Debug\net6.0\UnitTest.csproj.CoreCompileInputs.cache
