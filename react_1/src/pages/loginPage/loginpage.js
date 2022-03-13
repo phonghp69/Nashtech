@@ -18,7 +18,7 @@ export default function HomePage() {
     } else if (
       !String(newEmail)
         .toLowerCase()
-        .match(/^[a-zA-Z0-9]+\@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/g)
+        .match(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/g)
     ) {
       setEmailError('Must be a valid email');
       return false;
