@@ -1,0 +1,38 @@
+.top-nav {
+  display: flex;
+}
+.top-nav--link {
+  margin: 15px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+.table-button-delete {
+  margin-right: 20px;
+}
+.form--button-submit,
+.form--input,
+.search-by-title {
+  display: block;
+  margin: 20px;
+}
+.form--login-success {
+  margin: 20px;
+  color: green;
+}
+.Input--root {
+  display: block;
+}
+.Input--field-error {
+  margin-top: 5px;
+  color: red;
+}
+
