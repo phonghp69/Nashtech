@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Back_end.Models;
+using Back_end.Entities;
 using Microsoft.EntityFrameworkCore;
-namespace Back_end.Responsitory
+namespace Back_end.DBContext
 {
     public class LibraryDbContext : DbContext
     {
@@ -12,10 +12,10 @@ namespace Back_end.Responsitory
         protected LibraryDbContext()
         {
         }
-         public DbSet<User> Users { get; set; }
+         public DbSet<User> User { get; set; }
          public DbSet<Book> Book {get;set; }
          public DbSet<BookBorrowingRequest> Request { get; set; }
          public DbSet<BookBorrowingRequestDetails> RequestDetails { get; set; }
-         public DbSet<Category> Categories { get; set; }
+         public DbSet<Category> Category { get; set; }
     }
 }

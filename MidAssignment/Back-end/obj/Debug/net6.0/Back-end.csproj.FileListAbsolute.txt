@@ -59,3 +59,5 @@ D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\Back-end\obj\Debug\net6.0\Back
 D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\Back-end\obj\Debug\net6.0\ref\Back-end.dll
 D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\Back-end\obj\Debug\net6.0\Back-end.pdb
 D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\Back-end\obj\Debug\net6.0\Back-end.genruntimeconfig.cache
+D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\back-end\bin\Debug\net6.0\AutoMapper.dll
+D:\Rookies_Nashtech\Assignment_Nash\MidAssignment\back-end\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

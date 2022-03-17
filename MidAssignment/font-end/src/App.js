@@ -12,7 +12,7 @@ import HomePage from './page/homepage';
 import LoginPage from './page/loginpage';
 
 import './style.css';
-
+<link href="../../dist/css/bootstrap.min.css" rel="stylesheet"></link>
 export default function App() {
   const token = localStorage.getItem('token');
 
@@ -23,6 +23,7 @@ export default function App() {
   }
 
   return (
+    
     <BrowserRouter>
       <div>
         <Link style={{ marginRight: '10px' }} to="/">
