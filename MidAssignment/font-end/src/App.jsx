@@ -7,7 +7,8 @@ import {
   Link,
   useNavigate,
 } from 'react-router-dom';
-
+import RegisterPage from './page/registerpage';
+import CategoryPage from './page/categorypage';
 import HomePage from './page/homepage';
 import LoginPage from './page/loginpage';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,9 +42,9 @@ export default function App() {
       </Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/posts" element={<PostPage />} />
-        <Route path="/post/:id" element={<PostDetailPage />} />
-        <Route path="/profile" element={<ProfilePage />} /> */}
+         <Route path="/category" element={<CategoryPage />} />
+        
+        <Route path="/register" element={<RegisterPage/>} /> 
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
